@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Tic Tac Toe</title>
+  </head>
+  <body>
+    <div id="myModal" class="modal">
+      <div class="modal-content">
+        <div class="playerInput">
+          <label for="player1">Player 1: </label>
+          <input type="text" name="player1" id="player1" required />
+        </div>
+        <div class="playerInput">
+          <label for="player2">Player 2: </label>
+          <input type="text" name="player2" id="player2" required />
+        </div>
+        <button class="close">Submit</button>
+      </div>
+    </div>
+    <h1>Tic Tac Toe</h1>
+    <main class="gameContainer">
+      <div class="gameBox" cellIndex="0"></div>
+      <div class="gameBox" cellIndex="1"></div>
+      <div class="gameBox" cellIndex="2"></div>
+      <div class="gameBox" cellIndex="3"></div>
+      <div class="gameBox" cellIndex="4"></div>
+      <div class="gameBox" cellIndex="5"></div>
+      <div class="gameBox" cellIndex="6"></div>
+      <div class="gameBox" cellIndex="7"></div>
+      <div class="gameBox" cellIndex="8"></div>
+    </main>
+    <div class="gamePlayers">
+      <div class="player">
+        <h2>Player 1:</h2>
+        <p id="player1Name"></p>
+      </div>
+      <div class="player">
+        <h2>Player 2:</h2>
+        <p id="player2Name"></p>
+      </div>
+    </div>
+    <h3 id="result"></h3>
+    <button id="restart">Restart Game</button>
+  </body>
+  <script src="script.js"></script>
+</html>
