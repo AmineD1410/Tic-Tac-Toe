@@ -1,4 +1,9 @@
-@import url('http://fonts.cdnfonts.com/css/callie-chalk-font');
+@font-face {
+    font-family: 'Callie Chalk Font';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Callie Chalk Font'), url('https://fonts.cdnfonts.com/s/31286/CallieChalkFont-Regular.woff') format('woff');
+}
 body {
     display: flex;
     flex-direction: column;
