@@ -159,7 +159,7 @@ body {
     .gameBox {
         font-size: 3rem;
     }
-    input {
-        width: 120px;
-    }
+    .modal-content {
+        width: 50%;
+      }
 }
